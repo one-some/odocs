@@ -1,0 +1,64 @@
+:root {
+    /* gN is a series of monochrome colors incrementally lighter as N 
+     * increases. */
+    --g1: #262424;
+    --g2: #333333;
+    --g3: #484848;
+    --g4: white;
+    --graytext: #979797;
+}
+
+body {
+    background-color: var(--g1);
+    color: var(--g4);
+    font-family: monospace;
+}
+
+.class {
+    max-width: 50%;
+    background-color: var(--g2);
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.class > span {
+    font-size: 20px;
+}
+
+.class > .type {
+    font-size: 15px;
+    width: unset;
+}
+
+.type {
+    font-style: italic;
+    font-size: 10px;
+    color: var(--graytext);
+    width: 50px;
+    display: inline-block;
+}
+
+.property {
+    max-width: 90%;
+    margin-top: 7px;
+    margin-left: 35px;
+    padding: 1px 15px 15px;
+    background-color: var(--g3);
+    border-radius: 7px;
+}
+
+#header {
+    background-color: var(--g2);
+}
+
+#header > span {
+    font-size: 43px;
+    font-weight: 900;
+    letter-spacing: 0.33em;
+}
+
+/* Type styling */
+.bytes {color: #8fff8f;}
+.int {color: #41b8ff;}
+.dict {color: #ffa500;}
