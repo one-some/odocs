@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # bake_all.py
 # Bake all .odoc files into .html ones, preserving folder structure.
 
