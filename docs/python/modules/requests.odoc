@@ -1,0 +1,11 @@
+requests
+
+<classlabel>
+<class:Response>
+The response class is important
+<p[bytes]:content>
+The contents of the request in bytes
+<p[int]:status_code>
+The request's response code.
+
+<methodlabel>
